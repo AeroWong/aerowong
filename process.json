@@ -1,0 +1,7 @@
+{
+  "apps": [{
+    "name"   : "Aero Wong",
+    "script" : "./index.js",
+    "watch" : true
+  }]
+}
