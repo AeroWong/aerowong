@@ -1,13 +1,13 @@
 {
-  "name": "ghost",
+  "name": "Aero Wong's Writing Cubicle",
   "version": "0.8.0",
-  "description": "Just a blogging platform.",
-  "author": "Ghost Foundation",
-  "homepage": "http://ghost.org",
+  "description": "No B.S. Career Transition Strategy For Getting Job-Ready in Tech.",
+  "author": "Aero Wong",
+  "homepage": "http://aerowong.com",
   "keywords": [
-    "ghost",
-    "blog",
-    "cms"
+    "writer",
+    "programmer",
+    "technology"
   ],
   "repository": {
     "type": "git",
