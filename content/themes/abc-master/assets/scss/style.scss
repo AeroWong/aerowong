@@ -45,6 +45,7 @@
 @import "foundation/components/type";
 @import "foundation/components/offcanvas";
 @import "foundation/components/visibility";
+@import "foundation/components/mailchimp";
 
 //
 // Your styles here
@@ -138,7 +139,7 @@ body {
         margin: 0;
     }
     h2 {
-        font-size: rem-calc(22);
+        font-size:  40px;
     }
     .post-logo-container,
     .author-logo-container {

@@ -1,0 +1,31 @@
+#mc_embed_signup {
+	border-top: solid .0625rem #f7f7f7;
+	form {
+		padding: 10px 10% !important;
+		text-align: center !important;
+	}
+	h2 {
+		font-size: 2.625rem !important;
+	}
+	.mc-field-group {
+		width: 30% !important; 
+		clear: none !important;
+		float: left;		
+		&.name {
+			margin-left: 80px;
+		}
+		&.email {
+			margin-left: 15px;
+			input {
+				width: 120%;
+			}
+		}
+	}
+	.clear {
+		clear: none !important;
+	}
+	.button {
+		font: 14px Helvetica, Arial, sans-serif;
+		height: 37px !important;
+	}
+}
