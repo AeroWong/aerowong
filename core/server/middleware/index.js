@@ -93,6 +93,7 @@ setupMiddleware = function setupMiddleware(blogApp, adminApp) {
         path.join(corePath, '/shared'),
         {maxAge: utils.ONE_HOUR_MS, fallthrough: false}
     ));
+    blogApp.use('/content/books', storage.getStorage().serve());
     blogApp.use('/content/images', storage.getStorage().serve());
     blogApp.use('/public', serveStatic(
         path.join(corePath, '/built/public'),
