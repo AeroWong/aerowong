@@ -1,0 +1,13 @@
+.ultimate-guide-component {
+	text-align: center;
+
+	button {
+		width: 100%;
+        background-color: #e51843;
+        color: #fff;
+        font: 20px arial;
+        &:hover {
+			background: #000000;
+        }
+	}
+}
