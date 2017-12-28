@@ -13,15 +13,30 @@
             <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
         </div>
         {{/if}}
-        <h1 class="page-title js-bg-check"><span>{{@blog.title}}</span></h1>
-        <h2 class="page-description js-bg-check"><span>{{@blog.description}}</span></h2>
+        <h1 class="page-title js-bg-check" style="margin-bottom: 10px;">
+            <span>
+                {{!-- {{@blog.title}} --}}
+                Hi, I'm {Aero Wong}
+            </span>
+        </h1>
+        <img style="margin: 20px;" height="200" width="200" src="/content/images/2017/aeroheadshot.jpg" alt="aero">
+        {{!-- <h2 class="page-description js-bg-check">
+            <span>
+                {{@blog.description}}
+            </span>
+        </h2> --}}
+        <h3 class="page-description js-bg-check">The {Product Baby} at the <a href="http://productmanagersummit.com/">Product Manager Summit</a><h2>
+        <h3 class="page-description js-bg-check">The {Techie Baby} at the <a href="/ultimate-career-transition-guide/">Career Transition Guide for Getting Job-Ready in Tech</a><h3>
+        <h3 class="page-description js-bg-check" style="margin-bottom:20px;">The {Wisdom Baby} at the <a href="http://wisdomtrigger.com/">Wisdom Trigger</a><h3>
+        <h3 class="page-description js-bg-check"><i>I've also been featured in:</i></h3>
+        <img style="margin: 20px;" height="500" width="500" src="/content/images/2017/02/featured.png" alt="featuredIn">
     </div>
 </header>
 
 {{! The main content area on the homepage }}
 <main id="content" class="content home-template" role="main">
     {{!-- The Ultimate Guide  {{> "mailchimp"}} --}}    
-    {{> "feature_box"}}
+    {{!-- {{> "feature_box"}} --}}
     {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
+    {{!-- {{> "loop"}} --}}
 </main>
